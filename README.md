@@ -142,9 +142,4 @@ This project is a demonstration of a linear regression model implemented using P
 - [Grafana Cloud Observability Setup]
 - [PyTorch Linear Regression Implementation]
 
----
 
-This README provides a clear, robust overview aimed at recruiters, engineers, and contributors interested in ML model monitoring and observability. For further details and visual dashboard templates, see the referenced documentation.
-```
-
-You can save this text content into a file named `README.md` in your project folder. If you want, I can prepare and upload the file here for you as well. Let me know!
