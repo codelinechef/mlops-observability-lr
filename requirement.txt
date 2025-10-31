@@ -1,0 +1,9 @@
+torch 
+numpy 
+scikit-learn 
+matplotlib 
+seaborn
+prometheus_client 
+requests
+python-dotenv
+psutil

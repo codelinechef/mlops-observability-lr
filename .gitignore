@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.so
+
+# Environments
+.venv/
+venv/
+env/
+myenv/
+
+# Build & packaging
+build/
+dist/
+*.egg-info/
+*.egg
+
+# Testing & coverage
+.pytest_cache/
+.tox/
+.coverage
+coverage.xml
+
+# Type checking & linters
+.mypy_cache/
+.ruff_cache/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# IDE & editors
+.vscode/
+.idea/
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Logs & temp
+*.log
+*.tmp
+*.swp
+
+# Secrets
+.env
+.env.*
+
+# Prometheus/Grafana generated or local data (keep config under grafana/ tracked)
+docker-data/
+Grafana-veri/
+prometheus-veri/

@@ -1,0 +1,85 @@
+{
+  "annotations": {
+    "list": [
+      {
+        "builtIn": 1,
+        "type": "dashboard",
+        "enable": true,
+        "hide": true,
+        "iconColor": "rgba(0, 211, 255, 1)",
+        "name": "Annotations & Alerts",
+        "target": {
+          "limit": 100,
+          "matchAny": false,
+          "tags": [],
+          "type": "dashboard"
+        }
+      }
+    ]
+  },
+  "editable": true,
+  "fiscalYearStartMonth": 0,
+  "graphTooltip": 1,
+  "id": null,
+  "links": [],
+  "liveNow": false,
+  "schemaVersion": 39,
+  "style": "dark",
+  "tags": ["ml", "linear_regression"],
+  "time": { "from": "now-1h", "to": "now" },
+  "timezone": "",
+  "title": "Linear Regression Training Metrics",
+  "uid": "linear-regression-dashboard",
+  "version": 1,
+  "weekStart": "",
+  "panels": [
+    {
+      "type": "timeseries",
+      "title": "Training Loss (scaled)",
+      "id": 1,
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 0 },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "training_loss"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Epoch",
+      "id": 2,
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 0 },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "training_epoch"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Test MSE",
+      "id": 3,
+      "gridPos": { "h": 8, "w": 12, "x": 0, "y": 8 },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "test_mse"
+        }
+      ]
+    },
+    {
+      "type": "timeseries",
+      "title": "Test R²",
+      "id": 4,
+      "gridPos": { "h": 8, "w": 12, "x": 12, "y": 8 },
+      "targets": [
+        {
+          "refId": "A",
+          "expr": "test_r2"
+        }
+      ]
+    }
+  ]
+}
